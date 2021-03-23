@@ -1,0 +1,28 @@
+.contact {
+  width: 532px;
+  height: 707px;
+
+  margin-left: 185px;
+
+  .contact-text {
+    width: 130px;
+    font-size: 30px;
+    font-family: Proxima;
+    border-bottom: rgba($color: #000000, $alpha: 1) solid 2px;
+    margin: 60px 0px 36px 0px;
+  }
+  .directions {
+    width: 185px;
+    height: 161px;
+  }
+
+  .send-message {
+    width: 167px;
+    height: 60px;
+    font-size: 16;
+    font-family: gill;
+    margin: 10px 10px 20px 10px;
+    background-color: #79addc;
+    color: #ffffff;
+  }
+}

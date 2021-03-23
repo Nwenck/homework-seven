@@ -256,3 +256,29 @@ nav .links a {
   color: #79addc;
   font-family: gill;
 }
+
+.contact {
+  width: 532px;
+  height: 707px;
+  margin-left: 185px;
+}
+.contact .contact-text {
+  width: 130px;
+  font-size: 30px;
+  font-family: Proxima;
+  border-bottom: black solid 2px;
+  margin: 60px 0px 36px 0px;
+}
+.contact .directions {
+  width: 185px;
+  height: 161px;
+}
+.contact .send-message {
+  width: 167px;
+  height: 60px;
+  font-size: 16;
+  font-family: gill;
+  margin: 10px 10px 20px 10px;
+  background-color: #79addc;
+  color: #ffffff;
+}
