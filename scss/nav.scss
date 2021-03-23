@@ -1,0 +1,39 @@
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  //   background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgba($color: #000000, $alpha: 1) solid 2px;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../images/logo-black.png);
+  }
+
+  .links {
+    width: 542px;
+    height: 42px;
+    // background-color: rgb(27, 124, 59);
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+      &.pipe {
+        height: 40%;
+        width: 2px;
+        background-color: #79addc;
+      }
+    }
+    a {
+      font-family: gill;
+      text-decoration: none;
+      color: $black;
+      margin: auto;
+    }
+  }
+}
